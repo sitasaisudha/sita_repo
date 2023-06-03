@@ -1,0 +1,53 @@
+.formic{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    /* background-color: antiquewhite; */
+    font-size: larger;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   height:320px;
+   background-color: white;
+   border: 1px solid black;
+    /* width: 400px;  */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.formic .head{
+    height: 40px;
+    width: 400px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: larger;
+}
+.formic input,select,#btn{
+    height: 30px;
+    border-radius: 5px;
+    font-size: larger;
+}
+.formic .form-button-active{
+    background-color: rgb(47, 226, 47);
+}
+.formic .form-button{
+    background-color: rgb(175, 177, 180);
+}
+.skill-btn{
+    height: 20px;
+    width: 70px;
+    border-radius: 15px;   
+    background-color: rgb(164, 167, 167);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.skills{
+    display: flex;
+    justify-content: baseline;
+}
